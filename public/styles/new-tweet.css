@@ -1,0 +1,51 @@
+h2{
+  border-bottom: 1px solid
+}
+
+.new-tweet {
+  position:relative;
+  margin: 0 auto 1em auto;
+  padding: 10px;
+  height: 150px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #eee;
+
+
+}
+
+textarea{
+  position: relative;
+  width: 100%;
+}
+
+input{
+  position:absolute;
+  bottom:0;
+  left: :0;
+}
+
+
+
+span.counter{
+  position:absolute;
+  bottom:3px;
+  right:5px;
+}
+
+.tweet {
+  margin: 30px 0px;
+  border: 2px solid #eeeeee;
+}
+
+.tweet .content {
+  padding: 0px 20px;
+  height: 100px;
+  overflow: auto;
+}
+
+.tweet footer {
+  border-top: 2px solid #eeeeee;
+  padding: 10px;
+}
+

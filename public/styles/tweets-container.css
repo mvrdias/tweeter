@@ -1,0 +1,66 @@
+#tweets-container{
+  /*position:relative;*/
+  margin: 0 auto 1em auto;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+.tweet header {
+  /*position:relative;*/
+  background-color: #eee;
+  /*height: 50px*/
+  padding: 10px;
+}
+
+.tweet-image{
+  border-radius: 0.5em;
+  /*float: left;*/
+  width: 50px;
+  height: 50px;
+}
+
+.tweet-name{
+  font-size: 1.5em;
+  font-weight: bold;
+  vertical-align: top;
+  line-height: 1.5em;
+  margin-left: 0.5em;
+
+}
+
+
+.tweet-handle {
+    float: right;
+    font-size: 14px;
+    color: #657786 ;
+}
+
+
+span.footer{
+  position:absolute;
+  bottom:3px;
+  left: :5px;
+}
+
+
+
+
+
+article.tweet:hover .icons {
+    float: right;
+    margin-right: .5em;
+    color: #00a087 ;
+    visibility: visible;
+}
+
+
+article.tweet .icons {
+    float: right;
+    margin-right: .5em;
+    color: #00a087 ;
+    visibility: hidden;
+}
