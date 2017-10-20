@@ -21,3 +21,20 @@ nav {
   font-size: 2em;
   line-height: 80px;
 }
+
+.css_btn_class {
+  font-size:21px;
+  border-radius:10px;
+  border:1px solid #9fd4b3;
+  padding:9px 18px;
+  text-decoration:none;
+  background-color:#ededed;
+  color:#1a8f22;
+  display:inline-block;
+  float:right;
+  margin-top: 15px;
+
+}.css_btn_class:active {
+  position:relative;
+  top:1px;
+}
